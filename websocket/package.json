@@ -1,0 +1,16 @@
+{
+  "name": "orange-websocket-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "node-telegram-bot-api": "^0.65.1",
+    "socket.io": "^4.7.4"
+  }
+}
